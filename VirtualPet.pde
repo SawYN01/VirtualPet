@@ -8,6 +8,12 @@ void setup()
 
 void draw() 
 {
+  
+  fill(239,181,45);
+  noStroke();
+  ellipse(180,420,60,60);
+  ellipse(325,420,60,60);
+  
   fill(256,216,73);
   noStroke();
   rect(180,250,145,200);
@@ -33,12 +39,17 @@ void draw()
   ellipse(350, 186, 50, 50);
   ellipse(332, 224, 50, 50);
   
+  fill(256,216,73);
+  ellipse(200, 100, 40, 40);
+  ellipse(300, 100, 40, 40);
+  
+  fill(225,155,64);
+  ellipse(200, 100, 25, 25);
+  ellipse(300, 100, 25, 25);
     
   fill(256,216,73);
   noStroke();
-  ellipse(250, 150, 130, 140);
-  ellipse(200, 100, 30, 30);
-  ellipse(300, 100, 30, 30);
+  ellipse(250, 150, 140, 150);
   
   fill(0,0,0);
   noStroke();
@@ -47,19 +58,37 @@ void draw()
   
   fill(255,255,255);
   noStroke();
-  ellipse(251,180, 50,35);
+  ellipse(251,185, 55,45);
+  stroke(0);
+  strokeWeight(2);
+  line(250, 170, 250, 185);
+  
+  stroke(0);
+  strokeWeight(3);
+  noFill();
+  arc(240,178,25,25, QUARTER_PI, PI-QUARTER_PI);
+  arc(260,178,25,25, QUARTER_PI, PI-QUARTER_PI);
+  
   
   fill(0,0,0);
   noStroke();
   arc(250,155,30,30,0,PI);
 
-    
-  fill(239,181,45);
-  noStroke();
-  arc(180,420,60,60,PI/2,PI);
-  arc(325,420,60,60,0,PI/2);
-
-
+  stroke(0);
+  strokeWeight(4);
+  line(210, 160, 160, 150);
+  line(290, 160, 340, 150);
+  line(210, 180, 160, 190);
+  line(290, 180, 340, 190);
+  line(210, 200, 170, 220);
+  line(290, 200, 330, 220);
+ 
+  stroke(0);
+  strokeWeight(3);
+  noFill();
+  arc(225,125,30,30, PI+QUARTER_PI, TWO_PI-QUARTER_PI);
+  arc(275,125,30,30, PI+QUARTER_PI, TWO_PI-QUARTER_PI);
   
-  
+ 
 }
+
