@@ -9,11 +9,14 @@ void setup()
 
 void draw() 
 {
+  fill(210,105,30);
+  noStroke();
+  triangle(310,370,350,260,340,390);
   
   fill(239,181,45);
   noStroke();
-  ellipse(180,420,60,60);
-  ellipse(325,420,60,60);
+  ellipse(180,400,100,100);
+  ellipse(325,400,100,100);
   
   fill(256,216,73);
   noStroke();
@@ -90,6 +93,19 @@ void draw()
   arc(225,125,30,30, PI+QUARTER_PI, TWO_PI-QUARTER_PI);
   arc(275,125,30,30, PI+QUARTER_PI, TWO_PI-QUARTER_PI);
   
+  fill(239,181,45);
+  noStroke();
+  ellipse(220,390,40,40);
+  ellipse(285,390,40,40);
+  rect(200,300,40,90);
+  rect(265,300,40,90);
+  
+  stroke(0);
+  strokeWeight(3);
+  line(213, 390, 213, 405);
+  line(226, 390, 226, 405);
+  line(277, 390, 277, 405);
+  line(290, 390, 290, 405);
  
 }
 
