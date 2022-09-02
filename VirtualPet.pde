@@ -8,7 +8,7 @@ void setup()
 
 
 void draw() 
-{
+{ 
   fill(210,105,30);
   noStroke();
   triangle(310,370,350,260,340,390);
